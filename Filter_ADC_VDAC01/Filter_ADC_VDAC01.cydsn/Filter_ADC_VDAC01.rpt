@@ -1,0 +1,1030 @@
+Loading plugins phase: Elapsed time ==> 0s.240ms
+Initializing data phase: Elapsed time ==> 0s.000ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p C:\Users\tdu\Desktop\Filter_ADC_VDAC01\Filter_ADC_VDAC01.cydsn\Filter_ADC_VDAC01.cyprj -d CY8C5868AXI-LP035 -s C:\Users\tdu\Desktop\Filter_ADC_VDAC01\Filter_ADC_VDAC01.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+ADD: pft.M0035: information: Voltage Reference Information: Vref 'Vdda/2' is connected to terminal 'vminus' of '\ADC_DelSig:DSM\' but no direct hardware connection exists.
+ * C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\ADC_DelSig_v3_20\PSoC5\ADC_DelSig_v3_20.cysch (Instance:DSM)
+ * C:\Users\tdu\Desktop\Filter_ADC_VDAC01\Filter_ADC_VDAC01.cydsn\TopDesign\TopDesign.cysch (Instance:Vref)
+
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 1s.843ms
+<CYPRESSTAG name="HDL generation results...">
+</CYPRESSTAG>
+HDL generation phase: Elapsed time ==> 0s.065ms
+<CYPRESSTAG name="Synthesis results...">
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp Verilog Synthesis Compiler: Version 6.3 IR 41
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  Filter_ADC_VDAC01.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\bin/warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\tdu\Desktop\Filter_ADC_VDAC01\Filter_ADC_VDAC01.cydsn\Filter_ADC_VDAC01.cyprj -dcpsoc3 Filter_ADC_VDAC01.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  Filter_ADC_VDAC01.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\bin/warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\tdu\Desktop\Filter_ADC_VDAC01\Filter_ADC_VDAC01.cydsn\Filter_ADC_VDAC01.cyprj -dcpsoc3 Filter_ADC_VDAC01.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  Filter_ADC_VDAC01.v
+Program  :   vlogfe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\tdu\Desktop\Filter_ADC_VDAC01\Filter_ADC_VDAC01.cydsn\Filter_ADC_VDAC01.cyprj -dcpsoc3 -verilog Filter_ADC_VDAC01.v
+======================================================================
+
+vlogfe V6.3 IR 41:  Verilog parser
+Fri Aug 07 10:04:52 2015
+
+
+======================================================================
+Compiling:  Filter_ADC_VDAC01.v
+Program  :   vpp
+Options  :    -yv2 -q10 Filter_ADC_VDAC01.v
+======================================================================
+
+vpp V6.3 IR 41:  Verilog Pre-Processor
+Fri Aug 07 10:04:52 2015
+
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\..\psoc\content\cyprimitives\CyPrimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\..\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\..\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\..\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\..\psoc\content\cyprimitives\CyPrimitives.cylib\cy_vref_v1_60\cy_vref_v1_60.v'
+
+vpp:  No errors.
+
+Library 'work' => directory 'lcpsoc3'
+General_symbol_table
+General_symbol_table
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Using control file 'Filter_ADC_VDAC01.ctl'.
+
+vlogfe:  No errors.
+
+
+======================================================================
+Compiling:  Filter_ADC_VDAC01.v
+Program  :   tovif
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\tdu\Desktop\Filter_ADC_VDAC01\Filter_ADC_VDAC01.cydsn\Filter_ADC_VDAC01.cyprj -dcpsoc3 -verilog Filter_ADC_VDAC01.v
+======================================================================
+
+tovif V6.3 IR 41:  High-level synthesis
+Fri Aug 07 10:04:52 2015
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\tdu\Desktop\Filter_ADC_VDAC01\Filter_ADC_VDAC01.cydsn\codegentemp\Filter_ADC_VDAC01.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'.
+Linking 'C:\Users\tdu\Desktop\Filter_ADC_VDAC01\Filter_ADC_VDAC01.cydsn\codegentemp\Filter_ADC_VDAC01.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_vref_v1_60\cy_vref_v1_60.v'.
+
+tovif:  No errors.
+
+
+======================================================================
+Compiling:  Filter_ADC_VDAC01.v
+Program  :   topld
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\tdu\Desktop\Filter_ADC_VDAC01\Filter_ADC_VDAC01.cydsn\Filter_ADC_VDAC01.cyprj -dcpsoc3 -verilog Filter_ADC_VDAC01.v
+======================================================================
+
+topld V6.3 IR 41:  Synthesis and optimization
+Fri Aug 07 10:04:52 2015
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\tdu\Desktop\Filter_ADC_VDAC01\Filter_ADC_VDAC01.cydsn\codegentemp\Filter_ADC_VDAC01.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v'.
+Linking 'C:\Users\tdu\Desktop\Filter_ADC_VDAC01\Filter_ADC_VDAC01.cydsn\codegentemp\Filter_ADC_VDAC01.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\or_v1_0\or_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\cy_vref_v1_60\cy_vref_v1_60.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+    User names
+	\ADC_DelSig:Net_268\
+	\ADC_DelSig:Net_270\
+
+
+Deleted 2 User equations/components.
+Deleted 0 Synthesized equations/components.
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing \ADC_DelSig:Net_482\ to zero
+Aliasing \ADC_DelSig:Net_252\ to zero
+Aliasing \VDAC8:Net_83\ to zero
+Aliasing \VDAC8:Net_81\ to zero
+Aliasing \VDAC8:Net_82\ to zero
+Aliasing \Filter:Net_1\ to zero
+Aliasing \Filter:Net_4\ to zero
+Aliasing \Filter:Net_5\ to zero
+Aliasing tmpOE__P0_0_net_0 to \ADC_DelSig:soc\
+Aliasing one to \ADC_DelSig:soc\
+Aliasing tmpOE__P0_1_net_0 to \ADC_DelSig:soc\
+Aliasing tmpOE__P0_2_net_0 to \ADC_DelSig:soc\
+Removing Rhs of wire \ADC_DelSig:Net_488\[15] = \ADC_DelSig:Net_250\[51]
+Removing Lhs of wire \ADC_DelSig:Net_481\[18] = zero[2]
+Removing Lhs of wire \ADC_DelSig:Net_482\[19] = zero[2]
+Removing Lhs of wire \ADC_DelSig:Net_252\[53] = zero[2]
+Removing Lhs of wire \VDAC8:Net_83\[59] = zero[2]
+Removing Lhs of wire \VDAC8:Net_81\[60] = zero[2]
+Removing Lhs of wire \VDAC8:Net_82\[61] = zero[2]
+Removing Lhs of wire \Filter:Net_1\[77] = zero[2]
+Removing Lhs of wire \Filter:Net_4\[79] = zero[2]
+Removing Lhs of wire \Filter:Net_5\[80] = zero[2]
+Removing Rhs of wire tmpOE__P0_0_net_0[93] = \ADC_DelSig:soc\[55]
+Removing Lhs of wire one[97] = tmpOE__P0_0_net_0[93]
+Removing Lhs of wire tmpOE__P0_1_net_0[100] = tmpOE__P0_0_net_0[93]
+Removing Lhs of wire tmpOE__P0_2_net_0[106] = tmpOE__P0_0_net_0[93]
+
+------------------------------------------------------
+Aliased 0 equations, 14 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Substituting virtuals - pass 1:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+topld:  No errors.
+
+CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp
+Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\warp\bin/warp.exe
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\tdu\Desktop\Filter_ADC_VDAC01\Filter_ADC_VDAC01.cydsn\Filter_ADC_VDAC01.cyprj -dcpsoc3 Filter_ADC_VDAC01.v -verilog
+</CYPRESSTAG>
+Warp synthesis phase: Elapsed time ==> 0s.352ms
+<CYPRESSTAG name="Fitter results...">
+<CYPRESSTAG name="Fitter startup details...">
+cyp3fit: V3.2.0.6160, Family: PSoC3, Started at: Friday, 07 August 2015 10:04:53
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\tdu\Desktop\Filter_ADC_VDAC01\Filter_ADC_VDAC01.cydsn\Filter_ADC_VDAC01.cyprj -d CY8C5868AXI-LP035 Filter_ADC_VDAC01.v -verilog
+</CYPRESSTAG>
+<CYPRESSTAG name="Design parsing">
+Design parsing phase: Elapsed time ==> 0s.016ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Tech mapping">
+<CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
+<CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
+    Digital Clock 0: Automatic-assigning  clock 'ADC_DelSig_Ext_CP_Clk'. Fanout=1, Signal=\ADC_DelSig:Net_93\
+    Analog  Clock 0: Automatic-assigning  clock 'ADC_DelSig_theACLK'. Fanout=1, Signal=\ADC_DelSig:Net_488\
+</CYPRESSTAG>
+<CYPRESSTAG name="UDB Clock/Enable Remapping Results">
+</CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+<CYPRESSTAG name="Design Equations" icon="FILE_RPT_EQUATION">
+
+------------------------------------------------------------
+Design Equations
+------------------------------------------------------------
+    <CYPRESSTAG name="Pin listing">
+
+    ------------------------------------------------------------
+    Pin listing
+    ------------------------------------------------------------
+
+    Pin : Name = P0_0(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_ANALOG
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: True
+            Can contain Digital: False
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO RefSel: VCC_IO
+            Required Capabilitites: ANALOG
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => P0_0(0)__PA ,
+            analog_term => Net_39 ,
+            annotation => Net_509 ,
+            pad => P0_0(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = P0_1(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_ANALOG
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: True
+            Can contain Digital: False
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO RefSel: VCC_IO
+            Required Capabilitites: ANALOG
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => P0_1(0)__PA ,
+            analog_term => \Opamp:Net_29\ ,
+            annotation => Net_477 ,
+            pad => P0_1(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = P0_2(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: HI_Z_ANALOG
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: True
+            Can contain Digital: False
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO RefSel: VCC_IO
+            Required Capabilitites: ANALOG
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => P0_2(0)__PA ,
+            analog_term => Net_9 ,
+            annotation => Net_16 ,
+            pad => P0_2(0)_PAD );
+        Properties:
+        {
+        }
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
+
+    ------------------------------------------------------------
+    Macrocell listing
+    ------------------------------------------------------------
+
+    MacroCell: Name=__ONE__, Mode=(Combinatorial)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = __ONE__ (fanout=1)
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Datapath listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Status register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="StatusI register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Sync listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Control register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Count7 listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="DRQ listing">
+
+    ------------------------------------------------------------
+    DRQ listing
+    ------------------------------------------------------------
+
+    drqcell: Name =DMA
+        PORT MAP (
+            dmareq => Net_449 ,
+            termin => zero ,
+            termout => Net_2 );
+        Properties:
+        {
+            drq_type = "10"
+            num_tds = 0
+        }
+
+    drqcell: Name =DMA_1
+        PORT MAP (
+            dmareq => Net_50 ,
+            termin => zero ,
+            termout => Net_52 );
+        Properties:
+        {
+            drq_type = "10"
+            num_tds = 0
+        }
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Interrupt listing">
+
+    ------------------------------------------------------------
+    Interrupt listing
+    ------------------------------------------------------------
+
+    interrupt: Name =\ADC_DelSig:IRQ\
+        PORT MAP (
+            interrupt => Net_449 );
+        Properties:
+        {
+            int_type = "10"
+        }
+    </CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Technology mapping summary" expanded>
+
+------------------------------------------------------------
+Technology mapping summary
+------------------------------------------------------------
+
+Resource Type                 : Used : Free :  Max :  % Used
+============================================================
+Digital clock dividers        :    1 :    7 :    8 :  12.50%
+Analog clock dividers         :    1 :    3 :    4 :  25.00%
+Pins                          :    6 :   66 :   72 :   8.33%
+UDB Macrocells                :    1 :  191 :  192 :   0.52%
+UDB Unique Pterms             :    0 :  384 :  384 :   0.00%
+UDB Datapath Cells            :    0 :   24 :   24 :   0.00%
+UDB Status Cells              :    0 :   24 :   24 :   0.00%
+UDB Control Cells             :    0 :   24 :   24 :   0.00%
+DMA Channels                  :    2 :   22 :   24 :   8.33%
+Interrupts                    :    1 :   31 :   32 :   3.13%
+DSM Fixed Blocks              :    1 :    0 :    1 : 100.00%
+VIDAC Fixed Blocks            :    1 :    3 :    4 :  25.00%
+SC Fixed Blocks               :    0 :    4 :    4 :   0.00%
+Comparator Fixed Blocks       :    0 :    4 :    4 :   0.00%
+Opamp Fixed Blocks            :    1 :    3 :    4 :  25.00%
+CapSense Buffers              :    0 :    2 :    2 :   0.00%
+CAN Fixed Blocks              :    0 :    1 :    1 :   0.00%
+Decimator Fixed Blocks        :    1 :    0 :    1 : 100.00%
+I2C Fixed Blocks              :    0 :    1 :    1 :   0.00%
+Timer Fixed Blocks            :    0 :    4 :    4 :   0.00%
+DFB Fixed Blocks              :    1 :    0 :    1 : 100.00%
+USB Fixed Blocks              :    0 :    1 :    1 :   0.00%
+LCD Fixed Blocks              :    0 :    1 :    1 :   0.00%
+EMIF Fixed Blocks             :    0 :    1 :    1 :   0.00%
+LPF Fixed Blocks              :    0 :    2 :    2 :   0.00%
+SAR Fixed Blocks              :    0 :    2 :    2 :   0.00%
+</CYPRESSTAG>
+Technology Mapping: Elapsed time ==> 0s.145ms
+Tech mapping phase: Elapsed time ==> 0s.285ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Placement">
+Initial Analog Placement Results:
+IO_0@[IOP=(0)][IoId=(0)] : P0_0(0) (fixed)
+IO_1@[IOP=(0)][IoId=(1)] : P0_1(0) (fixed)
+IO_2@[IOP=(0)][IoId=(2)] : P0_2(0) (fixed)
+OpAmp[0]@[FFB(OpAmp,0)] : \Opamp:ABuf\ (fixed)
+Vref[1]@[FFB(Vref,1)] : Vref
+DSM[0]@[FFB(DSM,0)] : \ADC_DelSig:DSM\
+VIDAC[0]@[FFB(VIDAC,0)] : \VDAC8:viDAC8\
+Log: apr.M0058: The analog placement iterative improvement is 44% done. (App=cydsfit)
+Log: apr.M0058: The analog placement iterative improvement is 81% done. (App=cydsfit)
+Analog Placement Results:
+IO_0@[IOP=(0)][IoId=(0)] : P0_0(0) (fixed)
+IO_1@[IOP=(0)][IoId=(1)] : P0_1(0) (fixed)
+IO_2@[IOP=(0)][IoId=(2)] : P0_2(0) (fixed)
+OpAmp[0]@[FFB(OpAmp,0)] : \Opamp:ABuf\ (fixed)
+Vref[1]@[FFB(Vref,1)] : Vref
+DSM[0]@[FFB(DSM,0)] : \ADC_DelSig:DSM\
+VIDAC[0]@[FFB(VIDAC,0)] : \VDAC8:viDAC8\
+
+Analog Placement phase: Elapsed time ==> 1s.397ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Routing">
+Net "\ADC_DelSig:Net_520\" overuses wire "GPIO P0[2] Mux__5b"
+Net "\ADC_DelSig:Net_520\" overuses wire "GPIO P0[2] Mux__2b"
+Net "\ADC_DelSig:Net_520\" overuses wire "GPIO P0[2] Mux__5b"
+Net "\ADC_DelSig:Net_520\" overuses wire "GPIO P0[2] Mux__4b"
+Analog Routing phase: Elapsed time ==> 0s.039ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Code Generation">
+============ Analog Final Answer Routes ============
+Dump of CyAnalogRoutingResultsDB
+Map of net to items {
+  Net: Net_39 {
+    dsm_0_vplus
+    agl4_x_dsm_0_vplus
+    agl4
+    agl4_x_p0_0
+    p0_0
+  }
+  Net: \Opamp:Net_29\ {
+    p0_1
+    opamp_0_vminus_x_p0_1
+    opamp_0_vminus
+  }
+  Net: Net_9 {
+    vidac_0_vout
+    amuxbusl_x_vidac_0_vout
+    amuxbusl
+    amuxbusl_x_p0_2
+    p0_2
+  }
+  Net: \ADC_DelSig:Net_520\ {
+    opamp_0_vplus
+    abusl0_x_opamp_0_vplus
+    abusl0
+    abusl0_x_comp_vref_vdda
+    comp_vref_vdda
+    common_Vdda/2_x_comp_vref_vdda
+    common_Vdda/2
+    abusl0_x_vidac_2_vout
+    vidac_2_vout
+    agl5_x_vidac_2_vout
+    agl5
+    agl5_x_dsm_0_vminus
+    dsm_0_vminus
+  }
+  Net: \ADC_DelSig:Net_573\ {
+  }
+  Net: \ADC_DelSig:Net_41\ {
+  }
+  Net: \ADC_DelSig:Net_109\ {
+  }
+  Net: \ADC_DelSig:Net_677\ {
+  }
+  Net: \VDAC8:Net_77\ {
+  }
+}
+Map of item to net {
+  dsm_0_vplus                                      -> Net_39
+  agl4_x_dsm_0_vplus                               -> Net_39
+  agl4                                             -> Net_39
+  agl4_x_p0_0                                      -> Net_39
+  p0_0                                             -> Net_39
+  p0_1                                             -> \Opamp:Net_29\
+  opamp_0_vminus_x_p0_1                            -> \Opamp:Net_29\
+  opamp_0_vminus                                   -> \Opamp:Net_29\
+  vidac_0_vout                                     -> Net_9
+  amuxbusl_x_vidac_0_vout                          -> Net_9
+  amuxbusl                                         -> Net_9
+  amuxbusl_x_p0_2                                  -> Net_9
+  p0_2                                             -> Net_9
+  opamp_0_vplus                                    -> \ADC_DelSig:Net_520\
+  abusl0_x_opamp_0_vplus                           -> \ADC_DelSig:Net_520\
+  abusl0                                           -> \ADC_DelSig:Net_520\
+  abusl0_x_comp_vref_vdda                          -> \ADC_DelSig:Net_520\
+  comp_vref_vdda                                   -> \ADC_DelSig:Net_520\
+  common_Vdda/2_x_comp_vref_vdda                   -> \ADC_DelSig:Net_520\
+  common_Vdda/2                                    -> \ADC_DelSig:Net_520\
+  abusl0_x_vidac_2_vout                            -> \ADC_DelSig:Net_520\
+  vidac_2_vout                                     -> \ADC_DelSig:Net_520\
+  agl5_x_vidac_2_vout                              -> \ADC_DelSig:Net_520\
+  agl5                                             -> \ADC_DelSig:Net_520\
+  agl5_x_dsm_0_vminus                              -> \ADC_DelSig:Net_520\
+  dsm_0_vminus                                     -> \ADC_DelSig:Net_520\
+}
+Mux Info {
+}
+Dump of CyP35AnalogRoutingResultsDB
+IsVddaHalfUsedForComp = True
+IsVddaHalfUsedForSar0 = False
+IsVddaHalfUsedForSar1 = False
+Analog Code Generation phase: Elapsed time ==> 0s.419ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Placement">
+<CYPRESSTAG name="Detailed placement messages">
+I2659: No Constrained paths were found. The placer will run in non-timing driven mode.
+I2076: Total run-time: 0.6 sec.
+
+</CYPRESSTAG>
+<CYPRESSTAG name="PLD Packing">
+<CYPRESSTAG name="PLD Packing Summary" expanded>
+
+------------------------------------------------------------
+PLD Packing Summary
+------------------------------------------------------------
+            Resource Type : Used : Free :  Max :  % Used
+    ====================================================
+                     PLDs :    1 :   47 :   48 :   2.08%
+
+<CYPRESSTAG name="PLD Statistics">
+
+        PLD Resource Type :     Average/LAB
+    =======================================
+                   Inputs :            0.00
+                   Pterms :            0.00
+               Macrocells :            1.00
+</CYPRESSTAG>
+<CYPRESSTAG name="Packed PLD Contents">
+Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
+</CYPRESSTAG>
+PLD Packing: Elapsed time ==> 0s.005ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Partitioning">
+<CYPRESSTAG name="Initial Partitioning Summary">
+Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+<CYPRESSTAG name="Final Partitioning Summary">
+Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+Partitioning: Elapsed time ==> 0s.018ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Simulated Annealing">
+Annealing: Elapsed time ==> 0s.002ms
+<CYPRESSTAG name="Simulated Annealing Results">
+The seed used for moves was 114161200.
+Inital cost was 12, final cost is 12 (0.00% improvement).</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Final Placement Summary">
+
+------------------------------------------------------------
+Final Placement Summary
+------------------------------------------------------------
+
+       Resource Type :      Count : Avg Inputs : Avg Outputs
+    ========================================================
+                 UDB :          1 :       0.00 :       1.00
+<CYPRESSTAG name="Final Placement Details">
+<CYPRESSTAG name="Component Details">
+
+------------------------------------------------------------
+Component Placement Details
+------------------------------------------------------------
+UDB [UDB=(0,0)] is empty.
+UDB [UDB=(0,1)] is empty.
+UDB [UDB=(0,2)] is empty.
+UDB [UDB=(0,3)] is empty.
+UDB [UDB=(0,4)] is empty.
+UDB [UDB=(0,5)] is empty.
+UDB [UDB=(1,0)] is empty.
+UDB [UDB=(1,1)] is empty.
+UDB [UDB=(1,2)] is empty.
+UDB [UDB=(1,3)] contents:
+LAB@[UDB=(1,3)][LB=0] #macrocells=1, #inputs=0, #pterms=0
+{
+    [McSlotId=0]:     MacroCell: Name=__ONE__, Mode=(Combinatorial) @ [UDB=(1,3)][LB=0][MC=0]
+        Total # of inputs        : 0
+        Total # of product terms : 0
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = __ONE__ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+UDB [UDB=(1,4)] is empty.
+UDB [UDB=(1,5)] is empty.
+UDB [UDB=(2,0)] is empty.
+UDB [UDB=(2,1)] is empty.
+UDB [UDB=(2,2)] is empty.
+UDB [UDB=(2,3)] is empty.
+UDB [UDB=(2,4)] is empty.
+UDB [UDB=(2,5)] is empty.
+UDB [UDB=(3,0)] is empty.
+UDB [UDB=(3,1)] is empty.
+UDB [UDB=(3,2)] is empty.
+UDB [UDB=(3,3)] is empty.
+UDB [UDB=(3,4)] is empty.
+UDB [UDB=(3,5)] is empty.
+Intr hod @ [IntrHod=(0)]: 
+  Intr@ [IntrHod=(0)][IntrId=(29)] 
+    interrupt: Name =\ADC_DelSig:IRQ\
+        PORT MAP (
+            interrupt => Net_449 );
+        Properties:
+        {
+            int_type = "10"
+        }
+Drq hod @ [DrqHod=(0)]: 
+  Dma@ [DrqHod=(0)][DrqId=(8)] 
+    drqcell: Name =DMA_1
+        PORT MAP (
+            dmareq => Net_50 ,
+            termin => zero ,
+            termout => Net_52 );
+        Properties:
+        {
+            drq_type = "10"
+            num_tds = 0
+        }
+  Dma@ [DrqHod=(0)][DrqId=(10)] 
+    drqcell: Name =DMA
+        PORT MAP (
+            dmareq => Net_449 ,
+            termin => zero ,
+            termout => Net_2 );
+        Properties:
+        {
+            drq_type = "10"
+            num_tds = 0
+        }
+Port 0 contains the following IO cells:
+[IoId=0]: 
+Pin : Name = P0_0(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_ANALOG
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: True
+        Can contain Digital: False
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO RefSel: VCC_IO
+        Required Capabilitites: ANALOG
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => P0_0(0)__PA ,
+        analog_term => Net_39 ,
+        annotation => Net_509 ,
+        pad => P0_0(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=1]: 
+Pin : Name = P0_1(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_ANALOG
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: True
+        Can contain Digital: False
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO RefSel: VCC_IO
+        Required Capabilitites: ANALOG
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => P0_1(0)__PA ,
+        analog_term => \Opamp:Net_29\ ,
+        annotation => Net_477 ,
+        pad => P0_1(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=2]: 
+Pin : Name = P0_2(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: HI_Z_ANALOG
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: True
+        Can contain Digital: False
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO RefSel: VCC_IO
+        Required Capabilitites: ANALOG
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => P0_2(0)__PA ,
+        analog_term => Net_9 ,
+        annotation => Net_16 ,
+        pad => P0_2(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 1 is empty
+Port 2 is empty
+Port 3 is empty
+Port 4 is empty
+Port 5 is empty
+Port 6 is empty
+Port 12 is empty
+Port 15 is empty
+CAN Fixed Block group 0: empty
+Cache group 0: empty
+CapSense group 0: empty
+Clock group 0: 
+    Clock Block @ [FFB(Clock,0)]: 
+    clockblockcell: Name =ClockBlock
+        PORT MAP (
+            imo => ClockBlock_IMO ,
+            pllout => ClockBlock_PLL_OUT ,
+            ilo => ClockBlock_ILO ,
+            clk_100k => ClockBlock_100k ,
+            clk_1k => ClockBlock_1k ,
+            clk_32k => ClockBlock_32k ,
+            xtal => ClockBlock_XTAL ,
+            clk_32k_xtal => ClockBlock_XTAL_32KHZ ,
+            clk_sync => ClockBlock_MASTER_CLK ,
+            clk_bus_glb => ClockBlock_BUS_CLK ,
+            clk_bus => ClockBlock_BUS_CLK_local ,
+            dclk_glb_0 => \ADC_DelSig:Net_93\ ,
+            dclk_0 => \ADC_DelSig:Net_93_local\ ,
+            aclk_glb_0 => \ADC_DelSig:Net_488\ ,
+            aclk_0 => \ADC_DelSig:Net_488_local\ ,
+            clk_a_dig_glb_0 => \ADC_DelSig:Net_488_adig\ ,
+            clk_a_dig_0 => \ADC_DelSig:Net_488_adig_local\ );
+        Properties:
+        {
+        }
+Comparator Fixed Block group 0: empty
+DFB Fixed Block group 0: 
+    DFB Block @ [FFB(DFB,0)]: 
+    dfbcell: Name =\Filter:DFB\
+        PORT MAP (
+            out_1 => \Filter:Net_8\ ,
+            out_2 => \Filter:Net_9\ ,
+            dmareq_1 => Net_50 ,
+            dmareq_2 => Net_15 ,
+            interrupt => Net_436 );
+        Properties:
+        {
+            cy_registers = ""
+        }
+DSM Fixed Block group 0: 
+    DS Modulator @ [FFB(DSM,0)]: 
+    dsmodcell: Name =\ADC_DelSig:DSM\
+        PORT MAP (
+            aclock => \ADC_DelSig:Net_488\ ,
+            vplus => Net_39 ,
+            vminus => \ADC_DelSig:Net_520\ ,
+            reset_dec => \ADC_DelSig:mod_reset\ ,
+            extclk_cp_udb => \ADC_DelSig:Net_93_local\ ,
+            ext_pin_1 => \ADC_DelSig:Net_573\ ,
+            ext_pin_2 => \ADC_DelSig:Net_41\ ,
+            ext_vssa => \ADC_DelSig:Net_109\ ,
+            qtz_ref => \ADC_DelSig:Net_677\ ,
+            dec_clock => \ADC_DelSig:aclock\ ,
+            mod_dat_3 => \ADC_DelSig:mod_dat_3\ ,
+            mod_dat_2 => \ADC_DelSig:mod_dat_2\ ,
+            mod_dat_1 => \ADC_DelSig:mod_dat_1\ ,
+            mod_dat_0 => \ADC_DelSig:mod_dat_0\ ,
+            dout_udb_7 => \ADC_DelSig:Net_245_7\ ,
+            dout_udb_6 => \ADC_DelSig:Net_245_6\ ,
+            dout_udb_5 => \ADC_DelSig:Net_245_5\ ,
+            dout_udb_4 => \ADC_DelSig:Net_245_4\ ,
+            dout_udb_3 => \ADC_DelSig:Net_245_3\ ,
+            dout_udb_2 => \ADC_DelSig:Net_245_2\ ,
+            dout_udb_1 => \ADC_DelSig:Net_245_1\ ,
+            dout_udb_0 => \ADC_DelSig:Net_245_0\ );
+        Properties:
+        {
+            cy_registers = ""
+            resolution = 8
+        }
+Decimator Fixed Block group 0: 
+    Decimator Block @ [FFB(Decimator,0)]: 
+    decimatorcell: Name =\ADC_DelSig:DEC\
+        PORT MAP (
+            aclock => \ADC_DelSig:aclock\ ,
+            mod_dat_3 => \ADC_DelSig:mod_dat_3\ ,
+            mod_dat_2 => \ADC_DelSig:mod_dat_2\ ,
+            mod_dat_1 => \ADC_DelSig:mod_dat_1\ ,
+            mod_dat_0 => \ADC_DelSig:mod_dat_0\ ,
+            ext_start => __ONE__ ,
+            modrst => \ADC_DelSig:mod_reset\ ,
+            interrupt => Net_449 );
+        Properties:
+        {
+            cy_registers = ""
+        }
+EMIF Fixed Block group 0: empty
+I2C Fixed Block group 0: empty
+LCD Fixed Block group 0: empty
+LVD group 0: empty
+PM group 0: empty
+SC Fixed Block group 0: empty
+SPC group 0: empty
+Timer Fixed Block group 0: empty
+USB Fixed Block group 0: empty
+VIDAC Fixed Block group 0: 
+    VIDAC Block @ [FFB(VIDAC,0)]: 
+    vidaccell: Name =\VDAC8:viDAC8\
+        PORT MAP (
+            vout => Net_9 ,
+            iout => \VDAC8:Net_77\ );
+        Properties:
+        {
+            cy_registers = ""
+            is_all_if_any = 0
+            reg_data = 0
+        }
+Opamp Fixed Block group 0: 
+    Opamp Block @ [FFB(OpAmp,0)]: 
+    abufcell: Name =\Opamp:ABuf\
+        PORT MAP (
+            vplus => \ADC_DelSig:Net_520\ ,
+            vminus => \Opamp:Net_29\ ,
+            vout => \Opamp:Net_29\ );
+        Properties:
+        {
+            cy_registers = ""
+        }
+CapSense Buffer group 0: empty
+Vref group 0: 
+    Vref Block @ [FFB(Vref,1)]: 
+    vrefcell: Name =Vref
+        PORT MAP (
+            vout => \ADC_DelSig:Net_520\ );
+        Properties:
+        {
+            autoenable = 1
+            guid = "4720866E-BC14-478d-B8A0-3E44F38CADAC"
+            ignoresleep = 0
+            name = "Vdda/2"
+        }
+LPF Fixed Block group 0: empty
+SAR Fixed Block group 0: empty
+</CYPRESSTAG>
+<CYPRESSTAG name="Port Configuration Details">
+
+------------------------------------------------------------
+Port Configuration report
+------------------------------------------------------------
+     |     |       | Interrupt |                  |         | 
+Port | Pin | Fixed |      Type |       Drive Mode |    Name | Connections
+-----+-----+-------+-----------+------------------+---------+-----------------------
+   0 |   0 |     * |      NONE |      HI_Z_ANALOG | P0_0(0) | Analog(Net_39)
+     |   1 |     * |      NONE |      HI_Z_ANALOG | P0_1(0) | Analog(\Opamp:Net_29\)
+     |   2 |     * |      NONE |      HI_Z_ANALOG | P0_2(0) | Analog(Net_9)
+------------------------------------------------------------------------------------
+</CYPRESSTAG>
+</CYPRESSTAG>
+</CYPRESSTAG>
+Digital component placer commit/Report: Elapsed time ==> 0s.002ms
+Digital Placement phase: Elapsed time ==> 0s.865ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Routing">
+Routing successful.
+Digital Routing phase: Elapsed time ==> 1s.248ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream and API generation">
+Bitstream and API generation phase: Elapsed time ==> 0s.276ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream verification">
+Bitstream verification phase: Elapsed time ==> 0s.049ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Static timing analysis">
+Timing report is in Filter_ADC_VDAC01_timing.html.
+Static timing analysis phase: Elapsed time ==> 0s.216ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Data reporting">
+Data reporting phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Database update...">
+Design database save phase: Elapsed time ==> 0s.290ms
+</CYPRESSTAG>
+cydsfit: Elapsed time ==> 5s.128ms
+</CYPRESSTAG>
+Fitter phase: Elapsed time ==> 5s.188ms
+API generation phase: Elapsed time ==> 2s.415ms
+Dependency generation phase: Elapsed time ==> 0s.006ms
+Cleanup phase: Elapsed time ==> 0s.001ms
