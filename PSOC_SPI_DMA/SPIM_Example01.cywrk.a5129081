@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="SPIM_Example01\SPIM_Example01">
+<ExpandedNodeIds>
+<v>SPIM_Example01</v>
+<v>SPIM_Example01\SPIM_Example01</v>
+<v>SPIM_Example01\SPIM_Example01\TopDesign</v>
+<v>SPIM_Example01\SPIM_Example01\SPIM_Example01.cydwr</v>
+<v>SPIM_Example01\SPIM_Example01\SPIM_Example01.cydwr\Pins</v>
+<v>SPIM_Example01\SPIM_Example01\SPIM_Example01.cydwr\Analog</v>
+<v>SPIM_Example01\SPIM_Example01\SPIM_Example01.cydwr\Clocks</v>
+<v>SPIM_Example01\SPIM_Example01\SPIM_Example01.cydwr\Interrupts</v>
+<v>SPIM_Example01\SPIM_Example01\SPIM_Example01.cydwr\DMA</v>
+<v>SPIM_Example01\SPIM_Example01\SPIM_Example01.cydwr\System</v>
+<v>SPIM_Example01\SPIM_Example01\SPIM_Example01.cydwr\Directives</v>
+<v>SPIM_Example01\SPIM_Example01\SPIM_Example01.cydwr\Flash Security</v>
+<v>SPIM_Example01\SPIM_Example01\SPIM_Example01.cydwr\EEPROM</v>
+<v>SPIM_Example01\SPIM_Example01\Header Files</v>
+<v>SPIM_Example01\SPIM_Example01\Header Files\cyapicallbacks.h</v>
+<v>SPIM_Example01\SPIM_Example01\Source Files</v>
+<v>SPIM_Example01\SPIM_Example01\Source Files\main.c</v>
+<v>SPIM_Example01\SPIM_Example01\Generated_Source</v>
+<v>SPIM_Example01\SPIM_Example01\Generated_Source\PSoC5</v>
+<v>SPIM_Example01\SPIM_Example01\Generated_Source\PSoC5\swCopyStart</v>
+<v>SPIM_Example01\SPIM_Example01\SPIM_Example.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="SPIM_Example01\SPIM_Example01">
+<ExpandedNodeIds>
+<v>SPIM_Example01</v>
+<v>SPIM_Example01\SPIM_Example01</v>
+<v>SPIM_Example01\SPIM_Example01\component01</v>
+<v>SPIM_Example01\SPIM_Example01\component01\component01.cysym</v>
+<v>SPIM_Example01\SPIM_Example01\component01\component01.v</v>
+<v>SPIM_Example01\SPIM_Example01\TopDesign</v>
+<v>SPIM_Example01\SPIM_Example01\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="SPIM_Example01">
+<ExpandedNodeIds>
+<v>SPIM_Example01</v>
+<v>SPIM_Example01\SPIM_Example01</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\Control_Reg_1.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\Control_Reg_1_PM.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\DMA_TX_dma.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\dmaFinishIrq.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\dmaReq.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\miso.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\mosi.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\sclk.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM_INT.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\SPIM_PM.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\ss.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\swCopyEnd.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\Listing Files\swCopyStart.lst</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\SPIM_Example01.elf</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\SPIM_Example01.hex</v>
+<v>SPIM_Example01\SPIM_Example01\CortexM3\ARM_GCC_541\Debug\SPIM_Example01.map</v>
+<v>SPIM_Example01\SPIM_Example01\SPIM_Example01.gpdsc</v>
+<v>SPIM_Example01\SPIM_Example01\SPIM_Example01.rpt</v>
+<v>SPIM_Example01\SPIM_Example01\SPIM_Example01_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="SPIM_Example01">
+<ExpandedNodeIds>
+<v>SPIM_Example01</v>
+<v>SPIM_Example01\SPIM_Example01</v>
+<v>SPIM_Example01\SPIM_Example01\PSoC 5LP Architecture TRM</v>
+<v>SPIM_Example01\SPIM_Example01\CY8C58LP Family Datasheet</v>
+<v>SPIM_Example01\SPIM_Example01\System Reference Guides</v>
+<v>SPIM_Example01\SPIM_Example01\System Reference Guides\cy_boot_v6_10</v>
+<v>SPIM_Example01\SPIM_Example01\cy_clock_v2_20.pdf</v>
+<v>SPIM_Example01\SPIM_Example01\cy_dma_v1_70.pdf</v>
+<v>SPIM_Example01\SPIM_Example01\cy_pins_v2_20</v>
+<v>SPIM_Example01\SPIM_Example01\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>SPIM_Example01\SPIM_Example01\CyControlReg_v1_80.pdf</v>
+<v>SPIM_Example01\SPIM_Example01\SPI_Master_v2_50.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\SPIM_Example01.cydsn\SPIM_Example01.cydwr" />
+<name v=".\SPIM_Example01.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\SPIM_Example01.cydsn\Generated_Source\PSoC5\cytypes.h" />
+<name v=".\SPIM_Example01.cydsn\Generated_Source\PSoC5\CyDmac.c" />
+<name v=".\SPIM_Example01.cydsn\Generated_Source\PSoC5\CyDmac.h" />
+<name v=".\SPIM_Example01.cydsn\main.c" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1251, 553" SelectedTabbedMdiWindow="6c6447a7-6148-483b-a2d8-8214c7b15c59"><DocumentWindow Key="C:\Work\_Tools\Tool_ADV_board\PSOC_Examples\PSOC_SPI_DMA\SPIM_Example01.cydsn\SPIM_Example01.cydwr" Guid="bc53af3e-d739-46f3-b6cc-5d20d1f1ad1f" /><DocumentWindow Key="C:\Work\_Tools\Tool_ADV_board\PSOC_Examples\PSOC_SPI_DMA\SPIM_Example01.cydsn\TopDesign\TopDesign.cysch" Guid="2b59185c-41b9-4e6c-9e8a-ebc21479169c" /><DocumentWindow Key="C:\Work\_Tools\Tool_ADV_board\PSOC_Examples\PSOC_SPI_DMA\SPIM_Example01.cydsn\Generated_Source\PSoC5\cytypes.h" Guid="71dfc3bf-b4a1-4c27-9fab-a8920914b150" /><DocumentWindow Key="C:\Work\_Tools\Tool_ADV_board\PSOC_Examples\PSOC_SPI_DMA\SPIM_Example01.cydsn\Generated_Source\PSoC5\CyDmac.c" Guid="45180560-7875-436e-816f-6ca8feb6f915" /><DocumentWindow Key="C:\Work\_Tools\Tool_ADV_board\PSOC_Examples\PSOC_SPI_DMA\SPIM_Example01.cydsn\Generated_Source\PSoC5\CyDmac.h" Guid="d922b663-785e-4166-bd00-28f1e5e88984" /><DocumentWindow Key="C:\Work\_Tools\Tool_ADV_board\PSOC_Examples\PSOC_SPI_DMA\SPIM_Example01.cydsn\main.c" Guid="6c6447a7-6148-483b-a2d8-8214c7b15c59" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
